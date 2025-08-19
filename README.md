@@ -1,6 +1,6 @@
 # Overview
 
-Simple script to remove column indicating PASS/FAIL in Feroot PCI Reports
+Simple script to remove a specified column in Feroot PCI Reports
 
 # Dependencies
 - Built using Python 3.13.5
