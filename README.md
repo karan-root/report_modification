@@ -1,10 +1,6 @@
 # Overview
 
-Simple script to remove a specified column in Feroot PCI Reports
-
-# Dependencies
-- Built using Python 3.13.5
-- openpyxl
+Script that Requests PCI Report Info from Feroot API and then builds a report in the desired formatting
 
 ## Installation
 
@@ -23,11 +19,10 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-## Run Script -- Ex for deleting Vuln Scan Result col from report
-`python report_modification.py [PATH_FOR_DOWNLOADED_REPORT] [NEW_FILE_NAME] "Vulnerability Scan Result"`
+## Auth
+API Key required, user will be prompted for when program is run.
 
-If using `python3`:
-`python3 report_modification.py [PATH_FOR_DOWNLOADED_REPORT] [NEW_FILE_NAME] "Vulnerability Scan Result"`
+## Run
+`python main.py`
 
-### Note
-The last part of the command must exactly match the column string to be removed
+`python3 main.py`
